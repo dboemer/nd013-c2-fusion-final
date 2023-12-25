@@ -28,7 +28,20 @@ The mean RMSE remains relatively high at 0.78 m due to a y-offset of the lidar d
 
 ## 3. Data Association
 
+The functions related to the data association have been implemented in [association.py](student/association.py).  The following figure illustrates that multiple vehicles are successfully tracked.
+
+<img src="img/ID_S3_Tracking-View.png" width="800"/>
+
+
+The RMSE plot below indicates that track 0 and 1 have been active for the entire duration, while track 10 only became active at about 10s.  This can be explained by vehicles 0 and 1 moving approximately at the same speed than the measuring vehicles, while vehicle 10 overtakes the latter.
+
+<img src="img/ID_S3_RMSE.png" width="800"/>
+
+
 ## 4. Sensor Fusion
+
+
+
 
 ## 5. Evaluation and Conclusion
 
