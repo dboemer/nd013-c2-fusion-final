@@ -12,6 +12,20 @@ The functions related to tracking have been implemented in [filter.py](student/f
 
 ## 2. Track Management
 
+The functions related to the track management have been implemented in [trackmanagement.py](student/trackmanagement.py).  The following table illustrates the succession of relevant events:
+
+|# frame | Event | Explanation |
+|---|---|---|---|---|
+| 67 | Track 0 is created | / |
+| 68 | Track 0 is tentative | Detected a second time |
+| 71 | Track 0 is confirmed | Threshold score of 0.8 reached |
+| 97 | Track 0 is removed | Thresholed of estimation error covariance reached |
+
+The mean RMSE remains relatively high at 0.78 m due to a y-offset of the lidar detection as explained in the project instructions:
+
+<img src="img/ID_S2_RMSE.png" width="800"/>
+
+
 ## 3. Data Association
 
 ## 4. Sensor Fusion
