@@ -40,8 +40,12 @@ The RMSE plot below indicates that track 0 and 1 have been active for the entire
 
 ## 4. Sensor Fusion
 
+The functions related to the sensor fusion have been implemented in [measurements.py](student/measurements.py).  The figure below shows that the RMSE has on average been reduced with the help of the additional camera data.
 
+<img src="img/ID_S4_RMSE.png" width="800"/>
 
 
 ## 5. Evaluation and Conclusion
+
+
 
