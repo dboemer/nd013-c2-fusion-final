@@ -47,5 +47,17 @@ The functions related to the sensor fusion have been implemented in [measurement
 
 ## 5. Evaluation and Conclusion
 
+The results of the previous sections can be summarized in this video: [Link](img/video.mp4)
 
+
+### 5.1. Recap of the four tracking steps, results andmost difficult part
+
+
+### 5.2. Benefits of sensor fusion
+
+
+### 5.3. Challenges
+
+
+### 5.4. Directions for Improvement
 
