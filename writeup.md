@@ -15,7 +15,7 @@ The functions related to tracking have been implemented in [filter.py](student/f
 The functions related to the track management have been implemented in [trackmanagement.py](student/trackmanagement.py).  The following table illustrates the succession of relevant events:
 
 |# frame | Event | Explanation |
-|---|---|---|---|---|
+|---|---|---|
 | 67 | Track 0 is created | / |
 | 68 | Track 0 is tentative | Detected a second time |
 | 71 | Track 0 is confirmed | Threshold score of 0.8 reached |
