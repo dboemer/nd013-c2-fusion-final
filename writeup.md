@@ -12,11 +12,13 @@ The four tracking steps, their implementation and the results are explained [bel
 
 ### 1.2. Do you see any benefits in camera-lidar fusion compared to lidar-only tracking (in theory and in your concrete results)?
 
-Various sensors used for object detection come with distinct advantages and drawbacks. For instance:
+In theory, various sensors used for object detection come with distinct advantages and drawbacks. For instance:
 
 1. 3D LiDAR: This sensor excels in providing highly accurate distance measurements for vehicles. It compensates for the loss of distance precision in camera measurements, which result from the 2D projection of the 3D world.
 
 2. Camera: While lacking the depth accuracy of LiDAR, a camera stands out as the sole sensor capable of capturing rich textured and color-based information. This includes essential details such as speed signs, traffic lights, and more. LiDAR, in contrast, is usually unable to offer color and texture information.
+
+In practice, the average RMSE was reduced after adding the additional camera measurements to the lidar measurements.
 
 
 ### 1.3. Which challenges will a sensor fusion system face in real-life scenarios? Did you see any of these challenges in the project?
